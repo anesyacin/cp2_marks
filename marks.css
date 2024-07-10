@@ -1,0 +1,74 @@
+html{
+    font-size: 9px
+}
+h1{
+    font-family: Georgia, serif;
+}
+body {background: rgb(201, 174, 174) url("palm-tree-leaf-shadow-on-pink-background.jpg"); 
+    font-family: "Verdana", sans-serif;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 3px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  tr.Ajornee:hover {
+    background-color: coral;
+}
+tr.ADMITTED:hover {
+    background-color: rgb(15, 213, 42);
+}
+ 
+  th {
+    background-color: #3604aa;
+    color: white;
+  }
+  strong{
+    background-color: #9faa04;
+  }
+  nav {
+    background-color:#A52A2A;
+    padding: 10px 0;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+a:hover {
+    background-color:rgb(197, 62, 62);
+}
+/*table, th, td {
+   border: 1px solid rgb(86, 20, 230);
+    border-collapse: collapse;
+    text-align: center;
+    
+  }
+  th, td {
+    background-color: #dfefef;
+  }
+  table{
+    width: 100px;
+  }
+  tr:hover {background-color: coral;}
