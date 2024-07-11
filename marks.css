@@ -36,6 +36,8 @@ tr.ADMITTED:hover {
     background-color:#A52A2A;
     padding: 10px 0;
     text-align: center;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
 }
 
 ul {
