@@ -1,76 +1,146 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'poppins' sans-serif;
+    
+
+}
+
+
 html{
-    font-size: 9px
+    font-size: 72.5%;
 }
-h1{
-    font-family: Georgia, serif;
+body{
+    width: 99%;
+    background-color:rgb(255, 255, 255);
+    color: black ;
 }
-body {background: rgb(201, 174, 174) url("palm-tree-leaf-shadow-on-pink-background.jpg"); 
-    font-family: "Verdana", sans-serif;
+h1 {
+    font-family: 'Diplomata SC';font-size: 22px;
+    text-align: center;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+a:link,
+a:visited{
+    text-decoration: none;
+}
+.logo{
+    transition: 0.5s ease;
+}
+ul {
+    font-size: 1.082rem; 
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0b0b09;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 27px;
+    text-align: center;
+    font-family: 'Diplomata SC'
+
+  }
+  li {
+    float: left;
+    border: 1px solid#ddd;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+  }
+  
+  li a:hover {
+    background-color: #080061;
+  }
+  
+  li a:active {
+    background-color: #4CAF50;
+  } 
+
+.logo:hover,li a:active,li a:hover 
+
+{
+    transform: scale(1.1);
 }
 table {
     border-collapse: collapse;
     width: 100%;
   }
-  
   th, td {
     padding: 3px;
     text-align: left;
     border: 1px solid #ddd;
+
   }
   
   tr.Ajornee:hover {
-    background-color: coral;
-}
-tr.ADMITTED:hover {
-    background-color: rgb(15, 213, 42);
-}
- 
+    background-color: rgb(255, 0, 0);
+    transform: scale(1,2);
+  }
+  tr.ADMITTED:hover {
+    background-color: rgb(0, 255, 0);
+    transform: scale(1,2);
+  }
+  
   th {
-    background-color: #3604aa;
+    background-color: #000000;
     color: white;
   }
   strong{
-    background-color: #9faa04;
+    background-color: #efff0c;
   }
-  nav {
-    background-color:#A52A2A;
-    padding: 10px 0;
-    text-align: center;
-    position: -webkit-sticky; /* Safari */
+  .table-head {
+    position: -webkit-sticky; 
     position: sticky;
+    top: 122px;
+    background-color: white; 
+    padding: 10px; 
+}
+caption{
+    background-color: #fff;
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #333;
+}
+.caption1{
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 70px;
+}
+.caption2{
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 95px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.ADMITTED b{
+ background-color: #00ff00;
+ color: azure;
+ border-radius: 40%;
 }
-
-li {
-    display: inline-block;
-    margin: 0 10px;
+.Ajornee b{
+    background-color: rgb(255, 0, 0);
+    color: azure;
+    border-radius: 40%;
+   }
+.ADMITTED{
+    background-color: #c3c3c3;
 }
-
-a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    padding: 10px;
+.Ajornee{
+    background-color: #c3c3c3;
 }
-
-a:hover {
-    background-color:rgb(197, 62, 62);
-}
-/*table, th, td {
-   border: 1px solid rgb(86, 20, 230);
-    border-collapse: collapse;
-    text-align: center;
-    
-  }
-  th, td {
-    background-color: #dfefef;
-  }
-  table{
-    width: 100px;
-  }
-  tr:hover {background-color: coral;}
